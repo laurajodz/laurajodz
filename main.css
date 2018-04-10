@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
-html {
-  margin: 0;
-  padding: 0;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,8 +15,6 @@ body {
   color: #444;
   text-align: center;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -37,17 +38,13 @@ header {
   border-radius: 50%;
 }
 
-.title, .intro, .technology {
-  /* margin: auto; */
-}
-
 .technology {
   font-size: 16px;
 }
 
 .intro {
   margin-bottom: 40px;
-  max-width: 50%;
+  text-align: center;
 }
 
 .links {
@@ -55,7 +52,7 @@ header {
 }
 
 #links {
-  margin: 5px;
+  margin: 10px;
   color: white;
 }
 
@@ -64,7 +61,7 @@ header {
   margin: 0;
   padding: 40px;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 section {
@@ -72,16 +69,12 @@ section {
   padding: 40px;
   background-color: #e5f2f2;
   /* display: flex; */
-  border-bottom: 1px solid #444;
-  width: 100%;
-}
-
-.left, .right {
-  margin: auto;
 }
 
 .screenshot {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 95%;
+  margin-top: 50px;
 }
 
 .code-site {
@@ -92,25 +85,28 @@ section {
   margin: 5px;
 }
 
-.description {
-  max-width: 50%;
-  margin: auto;
-}
-
 footer {
   padding: 1% 0;
   background-color: #008080;
   color: #e5f2f2;
 }
 
-/* @media screen and (min-width: 600px) {
-
+@media screen and (min-width: 768px) {
+  .intro, .technology, .description {
+    max-width: 80%;
+    margin: auto;
   }
-} */
+}
 
-@media screen and (min-width: 900px) {
-  .left, .right {
-    max-width: 40%;
+@media screen and (min-width: 1024px) {
+  .intro, .technology, .technology-header, .description, .code-site, .stack {
+    font-size: 2em;
+  }
+  .work {
+    font-size: 60px;
+  }
+  .app-name {
+    font-size: 50px;
   }
 }
 /*
