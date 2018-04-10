@@ -8,8 +8,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444;
   text-align: center;
   line-height: 1.5;
@@ -19,9 +18,19 @@ body {
 
 header {
   padding: 20px;
-  background-color: #028090;
-  color: #F7FFF7;
+  background-color: #008080;
+  color: #e5f2f2;
   /* display: flex; */
+}
+
+.name {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 80px;
+}
+
+.title, .la, .app-name {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
 }
 
 #headshot {
@@ -29,11 +38,16 @@ header {
 }
 
 .title, .intro, .technology {
-  margin: auto;
+  /* margin: auto; */
+}
+
+.technology {
+  font-size: 16px;
 }
 
 .intro {
   margin-bottom: 40px;
+  max-width: 50%;
 }
 
 .links {
@@ -46,17 +60,19 @@ header {
 }
 
 .work {
-  background-color: #F7FFF7;
+  background-color: #e5f2f2;
   margin: 0;
   padding: 40px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
 }
 
 section {
   min-height: 200px;
   padding: 40px;
-  background-color: #F7FFF7;
+  background-color: #e5f2f2;
   /* display: flex; */
-  border: 1px solid #444;
+  border-bottom: 1px solid #444;
   width: 100%;
 }
 
@@ -68,29 +84,37 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.code-site {
+  text-decoration: none;
+  color: #008080;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
 .description {
-  max-width: 70%;
+  max-width: 50%;
   margin: auto;
 }
 
 footer {
   padding: 1% 0;
-  background-color: #028090;
-  color: #F7FFF7;
+  background-color: #008080;
+  color: #e5f2f2;
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
 
   }
-}
+} */
 
 @media screen and (min-width: 900px) {
   .left, .right {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
-
+/*
 @media screen and (min-width: 1500px) {
 
   }
-}
+} */
