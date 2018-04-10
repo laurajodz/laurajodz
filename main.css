@@ -2,30 +2,95 @@
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Open Sans",
   sans-serif;
-  font-size: 20px;
   color: #444;
   text-align: center;
   line-height: 1.5;
-}
-
-footer {
-  padding: 1% 0;
-  background-color: #aaa;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  padding: 12% 0;
+  padding: 20px;
+  background-color: #028090;
+  color: #F7FFF7;
+  /* display: flex; */
+}
+
+#headshot {
+  border-radius: 50%;
+}
+
+.title, .intro, .technology {
+  margin: auto;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.links {
+  margin-top: 40px;
+}
+
+#links {
+  margin: 5px;
+  color: white;
+}
+
+.work {
+  background-color: #F7FFF7;
+  margin: 0;
+  padding: 40px;
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  padding: 40px;
+  background-color: #F7FFF7;
+  /* display: flex; */
+  border: 1px solid #444;
+  width: 100%;
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
+.left, .right {
+  margin: auto;
+}
+
+.screenshot {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+  max-width: 70%;
+  margin: auto;
+}
+
+footer {
+  padding: 1% 0;
+  background-color: #028090;
+  color: #F7FFF7;
+}
+
+@media screen and (min-width: 600px) {
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .left, .right {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  }
 }

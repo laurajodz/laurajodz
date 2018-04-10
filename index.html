@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>Laura Jodz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
     <main role="main">
         <header role="banner">
-            <h1>Hero</h1>
+            <div class="left">
+                <h1>Laura Jodz</h1>
+                <img id="headshot" src="./public/headshot.jpg">
+                <h2 class="title">Web Developer / Analyst</h2>
+                <h3>Los Angeles</h3>
+            </div>
+            <div class="right">
+                <h4 class="intro">Hi! I'm Laura. I am an IT Business Analyst with newly acquired coding skills, currently living in Los Angeles by way of Philadelphia. I love workng in IT. I also love my family, exploring Southern California, watching baseball, reading, learning, teaching, cooking, baking, and gardening. I was at the game when the Phillies won the World Series in '08, to this day one of the best memories of my life.</h4>
+                <h5>Technology stack</h5>
+                <h6 class="technology">HTML, CSS, JavaScript, jQuery, React, Redux, Node.js, Express.js, MongoDB, SQL, Tableau, Excel</h6>
+                <div class="links">
+                    <a href="mailto:laura@laurajodz.com"><i class="far fa-envelope" id="links"></i></a>
+                    <a href="https://github.com/laurajodz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" id="links"></i></a>
+                    <a href="https://www.linkedin.com/in/laurajodz" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" id="links"></i></a>
+                    <a href="./public/resume.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-alt" id="links"></i></a>
+                </div>
+            </div>
         </header>
 
+        <h1 class="work">Work</h1>
+
         <section>
-            Section 1
+            <div class="left">
+                <img src="./public/moodtoday.png" class="screenshot">
+            </div>
+            <div class="right">
+                <h2>Mood Today</h2>
+                <a href="https://github.com/laurajodz/mood-app-client">CODE</a>
+                <a href="https://moodtoday.netlify.com/">LIVE SITE</a>
+                <p>React, Redux, Node.js, Express.js, MongoDB</p>
+                <p class="description">Mood Today is a mood tracking app. Every day you can rate your mood, along with other factors such as sleep, healthy eating, and exercise, to build up a database of your mood data over time. And you can run data analytics on your mood history to visualize your records and identify any patterns that might exist.</p>
+            </div>
         </section>
 
         <section>
-            Section 2
+            <div class="left">
+                <h2>EasyPeasy</h2>
+                <a href="https://github.com/laurajodz/easypeasy">CODE</a>
+                <a href="https://secure-bayou-31170.herokuapp.com">LIVE SITE</a>
+                <p>JavaScript, jQuery, Node.js, Express.js, MongoDB</p>
+                <p class="description">EasyPeasy is a meal planning app. You can search for recipes, create a weekly meal plan, and EasyPeasy generates your shopping list. You can add other items to the shopping list as well.</p>
+            </div>
+            <div class="right">
+                <img src="./public/easypeasy.png" class="screenshot">
+            </div>
         </section>
 
         <section>
-            Section 3
+            <div class="left">
+                <img src="./public/meetmap.jpg" class="screenshot">
+            </div>
+            <div class="right">
+                <h2>MeetMap</h2>
+                <a href="https://github.com/laurajodz/Meetmap">CODE</a>
+                <a href="https://meetmap.netlify.com/">LIVE SITE</a>
+                <p>JavaScript, jQuery</p>
+                <p class="description">MeetMap allows you to view Meetup events on a map. I used the Google Map and the Meetup APIs for this project.</p>
+            </div>
         </section>
 
-        <section>
-            Section 4
-        </section>
     </main>
-    <footer role="content-info">Footer</footer>
+
+        <footer role="content-info">
+            <h2>Contact Me</h2>
+            <a href="mailto:laura@laurajodz.com"><i class="far fa-envelope"></i></a>
+            <p>Copyright 2018, Laura Jodz</p>
+        </footer>
+
 </body>
 </html>
