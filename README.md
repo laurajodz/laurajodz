@@ -6,3 +6,5 @@ Laura Jodz's portfolio:  https://www.laurajodz.com
 + HTML
 + CSS
 + JavaScript
+
+### test status checks
